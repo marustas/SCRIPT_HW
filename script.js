@@ -8,8 +8,7 @@ let blueButton1 = document.getElementById('blue');
 let violetButton1 = document.getElementById('violet');
 let greyButton1 = document.getElementById('grey');
 let whiteButton1 = document.getElementById('white');
-let goldButton1 = document.getElementById('gold');
-let silverButton1 = document.getElementById('silver');
+
 
 let blackButton2 = document.getElementById('black2');
 let brownButton2 = document.getElementById('brown2');
@@ -32,8 +31,17 @@ let blueButton3 = document.getElementById('blue3');
 let violetButton3 = document.getElementById('violet3');
 let greyButton3 = document.getElementById('grey3');
 let whiteButton3 = document.getElementById('white3');
-//let goldButton2 = document.getElementById('gold2');
-//let silverButton2 = document.getElementById('silver2');
+let goldButton1 = document.getElementById('gold1');
+let silverButton1 = document.getElementById('silver1');
+
+let brownButton4 = document.getElementById('brown4');
+let redButton4 = document.getElementById('red4');
+let greenButton4 = document.getElementById('green4');
+let blueButton4 = document.getElementById('blue4');
+let violetButton4 = document.getElementById('violet4');
+let greyButton4 = document.getElementById('grey4');
+let goldButton2 = document.getElementById('gold2');
+let silverButton2 = document.getElementById('silver2');
 
 
 let band1 = document.getElementById('band1');
@@ -72,7 +80,7 @@ blueButton1.addEventListener('click', function onClick() {
 });
 
 violetButton1.addEventListener('click', function onClick() {
-    band1.style.backgroundColor = 'violet';
+    band1.style.backgroundColor = 'purple';
 });
 
 greyButton1.addEventListener('click', function onClick() {
@@ -113,7 +121,7 @@ blueButton2.addEventListener('click', function onClick() {
 });
 
 violetButton2.addEventListener('click', function onClick() {
-    band2.style.backgroundColor = 'violet';
+    band2.style.backgroundColor = 'purple';
 });
 
 greyButton2.addEventListener('click', function onClick() {
@@ -154,7 +162,7 @@ blueButton3.addEventListener('click', function onClick() {
 });
 
 violetButton3.addEventListener('click', function onClick() {
-    band3.style.backgroundColor = 'violet';
+    band3.style.backgroundColor = 'purple';
 });
 
 greyButton3.addEventListener('click', function onClick() {
@@ -163,4 +171,45 @@ greyButton3.addEventListener('click', function onClick() {
 
 whiteButton3.addEventListener('click', function onClick() {
     band3.style.backgroundColor = 'white';
+});
+
+goldButton1.addEventListener('click', function onClick() {
+    band3.style.backgroundColor = 'gold';
+});
+
+silverButton1.addEventListener('click', function onClick() {
+    band3.style.backgroundColor = 'silver';
+});
+
+// Fourth band color regulation
+brownButton4.addEventListener('click', function onClick() {
+    band4.style.backgroundColor = 'brown';
+});
+
+redButton4.addEventListener('click', function onClick() {
+    band4.style.backgroundColor = 'red';
+});
+
+greenButton4.addEventListener('click', function onClick() {
+    band4.style.backgroundColor = 'green';
+});
+
+blueButton4.addEventListener('click', function onClick() {
+    band4.style.backgroundColor = 'blue';
+});
+
+violetButton4.addEventListener('click', function onClick() {
+    band4.style.backgroundColor = 'purple';
+});
+
+greyButton4.addEventListener('click', function onClick() {
+    band4.style.backgroundColor = 'grey';
+});
+
+goldButton2.addEventListener('click', function onClick() {
+    band4.style.backgroundColor = 'gold';
+});
+
+silverButton2.addEventListener('click', function onClick() {
+    band4.style.backgroundColor = 'silver';
 });
