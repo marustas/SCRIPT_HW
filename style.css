@@ -175,28 +175,27 @@ img {
     height: 140px;
 }
 
+
+/* resistor color changing */
+
 .temp1 {
     width: 20px;
     height: 140px;
-    background-color: rgb(225, 214, 194);
 }
 
 .temp2 {
     width: 20px;
     height: 100px;
-    background-color: rgb(225, 214, 194);
 }
 
 .temp3 {
     width: 20px;
     height: 100px;
-    background-color: rgb(225, 214, 194);
 }
 
 .temp4 {
     width: 20px;
     height: 140px;
-    background-color: rgb(225, 214, 194);
     margin-left: 61%;
     position: absolute;
 }
@@ -214,6 +213,3 @@ img {
     display: flex;
     position: relative;
 }
-
-
-/* resistor color changing */
