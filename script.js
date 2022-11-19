@@ -50,45 +50,77 @@ let band3 = document.getElementById('band3');
 let band4 = document.getElementById('band4');
 
 
+let a = 0;
+
 // First band color regulation
 blackButton1.addEventListener('click', function onClick() {
     band1.style.backgroundColor = 'black';
+    a = 0;
+    console.log(a);
+    document.getElementById("num1").innerHTML = a;
 });
 
 brownButton1.addEventListener('click', function onClick() {
     band1.style.backgroundColor = 'brown';
+    a = 1;
+    console.log(a);
+    document.getElementById("num1").innerHTML = a;
 });
 
 redButton1.addEventListener('click', function onClick() {
     band1.style.backgroundColor = 'red';
+    a = 2;
+    console.log(a);
+    document.getElementById("num1").innerHTML = a;
 });
 
 orangeButton1.addEventListener('click', function onClick() {
     band1.style.backgroundColor = 'orange';
+    a = 3;
+    console.log(a);
+    document.getElementById("num1").innerHTML = a;
 });
 
 yellowButton1.addEventListener('click', function onClick() {
     band1.style.backgroundColor = 'yellow';
+    a = 4;
+    console.log(a);
+    document.getElementById("num1").innerHTML = a;
 });
 
 greenButton1.addEventListener('click', function onClick() {
     band1.style.backgroundColor = 'green';
+    a = 5;
+    console.log(a);
+    document.getElementById("num1").innerHTML = a;
 });
 
 blueButton1.addEventListener('click', function onClick() {
     band1.style.backgroundColor = 'blue';
+    a = 6;
+    console.log(a);
+    document.getElementById("num1").innerHTML = a;
 });
 
 violetButton1.addEventListener('click', function onClick() {
     band1.style.backgroundColor = 'purple';
+    a = 7;
+    console.log(a);
+    document.getElementById("num1").innerHTML = a;
 });
 
 greyButton1.addEventListener('click', function onClick() {
     band1.style.backgroundColor = 'grey';
+    a = 8;
+    console.log(a);
+    document.getElementById("num1").innerHTML = a;
 });
 
 whiteButton1.addEventListener('click', function onClick() {
     band1.style.backgroundColor = 'white';
+    a = 9;
+    console.log(a);
+    document.getElementById("num1").innerHTML = a;
 });
 
 // Second band color regulation
