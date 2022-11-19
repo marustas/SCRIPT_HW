@@ -223,3 +223,16 @@ img {
     display: flex;
     position: relative;
 }
+
+.resnum {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+}
+
+.tolrnum {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
