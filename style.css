@@ -1,5 +1,9 @@
 /* Dropdown Button */
 
+body {
+    font-family: 'Open Sans';
+}
+
 .dropbtn {
     background-color: #12d68e;
     color: white;
@@ -168,6 +172,7 @@ h1 {
     display: flex;
     justify-content: right;
     align-items: center;
+    padding: 0;
 }
 
 img {
@@ -180,14 +185,11 @@ img {
 
 .temp1 {
     width: 20px;
-    height: 140px;
+    height: 130px;
+    padding-bottom: 10px;
 }
 
-.temp2 {
-    width: 20px;
-    height: 100px;
-}
-
+.temp2,
 .temp3 {
     width: 20px;
     height: 100px;
@@ -196,16 +198,24 @@ img {
 .temp4 {
     width: 20px;
     height: 140px;
-    margin-left: 61%;
-    position: absolute;
 }
 
-.bands {
+.bands ul li {
+    padding-left: 50px;
+}
+
+.bands ul li:last-child {
+    margin-left: 170px;
+}
+
+.bands ul {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 30px;
     position: absolute;
-    margin-left: 60px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .resistor {
