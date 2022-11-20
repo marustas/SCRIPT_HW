@@ -50,25 +50,25 @@ calc.addEventListener('click', function onClick() {
             y = 2;
             break;
         case 'orange':
-            y = 1000;
+            y = 3;
             break;
         case 'yellow':
-            y = 10000;
+            y = 4;
             break;
         case 'green':
-            y = 100000;
+            y = 5;
             break;
         case 'blue':
-            y = 1000000;
+            y = 6;
             break;
         case 'violet':
-            y = 10000000;
+            y = 7;
             break;
         case 'grey':
-            y = 100000000;
+            y = 8;
             break;
         case 'white':
-            y = 1000000000;
+            y = 9;
             break;
         default:
             y = 0;
@@ -83,25 +83,25 @@ calc.addEventListener('click', function onClick() {
             z = 100;
             break;
         case 'orange':
-            z = 10 ^ 3;
+            z = 1000;
             break;
         case 'yellow':
-            z = 10 ^ 4;
+            z = 10000;
             break;
         case 'green':
-            z = 10 ^ 5;
+            z = 100000;
             break;
         case 'blue':
-            z = 10 ^ 6;
+            z = 1000000;
             break;
         case 'violet':
-            z = 10 ^ 7;
+            z = 10000000;
             break;
         case 'grey':
-            z = 10 ^ 8;
+            z = 100000000;
             break;
         case 'white':
-            z = 10 ^ 9;
+            z = 1000000000;
             break;
         case 'gold':
             z = 0.1;
@@ -124,7 +124,7 @@ calc.addEventListener('click', function onClick() {
         case 'blue':
             t = 0.25;
             break;
-        case 'violet':
+        case 'purple':
             t = 0.1;
             break;
         case 'grey':
@@ -141,7 +141,21 @@ calc.addEventListener('click', function onClick() {
             break;
     }
     result = (x * 10 + y) * z;
-    console.log((x * 10 + y) * z);
-    document.getElementById("num").innerHTML = result;
+    if (result >= 1000 && result < 1000000) {
+        result /= 1000;
+        document.getElementById("num").innerHTML = result;
+        document.getElementById("ohm").innerHTML = "kOhm";
+    } else if (result >= 1000000 && result < 1000000000) {
+        result /= 1000000;
+        document.getElementById("num").innerHTML = result;
+        document.getElementById("ohm").innerHTML = "MOhm";
+    } else if (result >= 1000000000) {
+        result /= 1000000000;
+        document.getElementById("num").innerHTML = result;
+        document.getElementById("ohm").innerHTML = "GOhm";
+    } else {
+        document.getElementById("num").innerHTML = result;
+        document.getElementById("ohm").innerHTML = "Ohm";
+    }
     document.getElementById("tolr").innerHTML = t;
 });
