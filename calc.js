@@ -158,4 +158,5 @@ calc.addEventListener('click', function onClick() {
         document.getElementById("ohm").innerHTML = "Ohm";
     }
     document.getElementById("tolr").innerHTML = t;
+    document.getElementById("percent").innerHTML = "%";
 });
