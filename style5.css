@@ -185,12 +185,13 @@ img {
 }
 
 .temp2,
-.temp3 {
+.temp3,
+.temp4 {
     width: 20px;
     height: 100px;
 }
 
-.temp4 {
+.temp5 {
     width: 20px;
     height: 140px;
 }
@@ -200,7 +201,7 @@ img {
 }
 
 .bands ul li:last-child {
-    margin-left: 170px;
+    margin-left: 100px;
 }
 
 .bands ul {
@@ -263,21 +264,4 @@ img {
     width: fit-content;
     position: relative;
     left: 35%;
-}
-
-.res2 {
-    display: flex;
-    margin-top: 10px;
-    border: 2px solid #08a36a;
-    padding: 0;
-    width: 10%;
-    border-radius: 5px;
-    background-color: #08a36a;
-    align-items: center;
-    justify-content: center;
-}
-
-.res2 a {
-    color: white;
-    text-decoration: none;
 }
