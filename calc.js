@@ -115,6 +115,9 @@ calc.addEventListener('click', function onClick() {
     }
 
     switch (test4) {
+        case 'brown':
+            t = 1;
+            break;
         case 'red':
             t = 2;
             break;
@@ -137,7 +140,7 @@ calc.addEventListener('click', function onClick() {
             t = 10;
             break;
         default:
-            t = 1;
+            t = 0;
             break;
     }
     result = (x * 10 + y) * z;

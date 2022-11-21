@@ -253,3 +253,7 @@ img {
 .tolrnum h2 {
     margin: 5px;
 }
+
+.dropbtn:hover {
+    background-color: #08a36a;
+}
