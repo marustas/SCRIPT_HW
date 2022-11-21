@@ -163,11 +163,6 @@ body {
 
 /* elements adjustment */
 
-h1 {
-    position: relative;
-    left: 40%;
-}
-
 .image {
     display: flex;
     justify-content: right;
@@ -256,4 +251,16 @@ img {
 
 .dropbtn:hover {
     background-color: #08a36a;
+}
+
+.title {
+    background-color: #12d68e;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    width: fit-content;
+    position: relative;
+    left: 35%;
 }
